@@ -22,7 +22,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # --- Configure Gemini Client ---
-client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+# Try Streamlit Cloud secrets first, then fall back to .env
+try:
+    import streamlit as st
+    api_key = st.secrets.get("GOOGLE_API_KEY", os.getenv("GOOGLE_API_KEY"))
+except Exception:
+    api_key = os.getenv("GOOGLE_API_KEY")
+
+client = genai.Client(api_key=api_key)
 
 # Model to use — gemini-2.5-flash is free tier and supports Google Search grounding
 MODEL = "gemini-2.5-flash"
