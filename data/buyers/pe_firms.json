@@ -1,0 +1,14 @@
+{
+  "description": "Private equity firms active in blue-collar / trades / industrial services M&A",
+  "firms": [
+    {"name": "Alpine Investors", "aum": "$16B+", "focus": "Home services, commercial services", "platforms": ["Orion Group (HVAC/commercial)"], "check_size": "$5M-$50M EBITDA"},
+    {"name": "Morgan Stanley Capital Partners", "aum": "Large-cap PE", "focus": "Home services, HVAC", "platforms": ["Sila Heating & AC"], "check_size": "$10M-$50M+ EBITDA"},
+    {"name": "Goldman Sachs Alternatives", "aum": "Large-cap PE", "focus": "Home services", "platforms": ["Wrench Group"], "check_size": "$20M+ EBITDA"},
+    {"name": "Gryphon Investors", "aum": "$5B+", "focus": "Multi-trade home services", "platforms": ["Apex Service Partners"], "check_size": "$10M-$50M EBITDA"},
+    {"name": "Huron Capital", "aum": "$2B+", "focus": "Commercial/industrial services", "platforms": ["The Exigent Group (HVAC)"], "check_size": "$5M-$25M EBITDA"},
+    {"name": "SkyKnight Capital", "aum": "Mid-market", "focus": "HVAC services", "platforms": ["FirstCall Mechanical"], "check_size": "$5M-$20M EBITDA"},
+    {"name": "Vance Street Capital", "aum": "$1.5B+", "focus": "Specialty industrial", "platforms": ["Fumex Air Filtration"], "check_size": "$5M-$20M EBITDA"},
+    {"name": "Prospect Partners", "aum": "Lower mid-market", "focus": "Business services, HVAC", "platforms": ["Central States HVAC (exited 2024)"], "check_size": "$3M-$15M EBITDA"},
+    {"name": "Various (56 roofing platforms)", "aum": "Various", "focus": "Roofing contractor consolidation", "platforms": ["56 active platforms as of end-2024"], "check_size": "$2M-$25M+ EBITDA"}
+  ]
+}

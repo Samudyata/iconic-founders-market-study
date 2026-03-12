@@ -1,0 +1,180 @@
+{
+  "industry": "Commercial Landscaping",
+  "display_name": "Commercial Landscaping Services",
+  "naics_codes": ["561730"],
+  "overview": {
+    "market_size": "$182.48 billion (US, 2024)",
+    "market_size_source": "First Page Sage / Industry Reports",
+    "market_size_source_url": "https://firstpagesage.com/business/ebitda-multiples-for-landscaping-companies/",
+    "growth_rate": "Robust growth driven by environmental consciousness, technology, and rising disposable incomes",
+    "fragmentation": "Highly fragmented — top 50 companies hold ~20% market share. Ideal for roll-up consolidation.",
+    "fragmentation_source": "Livingstone Partners",
+    "fragmentation_source_url": "https://livingstonepartners.com/en-us/insights/commercial-landscaping-an-owners-guide-to-private-equity-activity-and-valuation-considerations/",
+    "typical_ebitda_margin": "10%–18% for well-run commercial operators",
+    "recurring_revenue_note": "Maintenance-based businesses valued much higher than construction-based. Recurring contracts are the #1 value driver.",
+    "pe_interest": "Heavy buyer competition between strategics and PE firms keeping multiples high. Roll-up activity strong.",
+    "labor_challenge": "Seasonal labor dependency, H-2B visa program reliance for many operators",
+    "ai_disruption_risk": "Low — physical outdoor services resistant to automation",
+    "recent_revenue_trend": "42% of landscaping companies reported revenue decline in 2024, potentially impacting near-term valuations"
+  },
+  "ebitda_multiples": {
+    "$2M-$5M": {
+      "low": 3.0,
+      "median": 3.8,
+      "high": 5.0,
+      "deal_count": "Moderate",
+      "source": "First Page Sage 2025 / BizBuySell",
+      "source_url": "https://firstpagesage.com/business/ebitda-multiples-for-landscaping-companies/",
+      "confidence": "HIGH",
+      "notes": "Average EBITDA multiples range 3.63x–3.98x for typical landscaping companies. Low barrier to entry discounts smaller operators."
+    },
+    "$5M-$10M": {
+      "low": 4.5,
+      "median": 6.0,
+      "high": 8.0,
+      "deal_count": "Active PE add-on target",
+      "source": "First Page Sage / Livingstone Partners",
+      "source_url": "https://livingstonepartners.com/en-us/insights/commercial-landscaping-an-owners-guide-to-private-equity-activity-and-valuation-considerations/",
+      "confidence": "MEDIUM",
+      "notes": "Significant PE-backed deals fall between 7x–15x for quality assets. Companies with $1M+ revenue and commercial contracts see meaningful premium."
+    },
+    "$10M-$15M": {
+      "low": 6.0,
+      "median": 8.0,
+      "high": 10.0,
+      "deal_count": "Competitive — platform quality",
+      "source": "Livingstone Partners / Industry estimates",
+      "source_url": "https://livingstonepartners.com/en-us/insights/commercial-landscaping-an-owners-guide-to-private-equity-activity-and-valuation-considerations/",
+      "confidence": "MEDIUM",
+      "notes": "Platform-quality businesses with recurring commercial contracts and multi-region presence."
+    },
+    "$15M-$25M": {
+      "low": 8.0,
+      "median": 10.0,
+      "high": 15.0,
+      "deal_count": "Premium — limited supply",
+      "source": "Livingstone Partners / PE transaction data",
+      "source_url": "https://livingstonepartners.com/en-us/insights/commercial-landscaping-an-owners-guide-to-private-equity-activity-and-valuation-considerations/",
+      "confidence": "LOW",
+      "notes": "Top-tier PE-backed deals can reach 15x for scale platforms. Limited public data at this size."
+    }
+  },
+  "value_drivers": [
+    {
+      "factor": "Recurring Maintenance Contracts",
+      "impact": "+1.0x to +2.0x",
+      "direction": "positive",
+      "explanation": "Maintenance-based businesses valued much higher than construction/project-based. Recurring revenue is the single biggest valuation differentiator.",
+      "source": "First Page Sage / Livingstone Partners"
+    },
+    {
+      "factor": "Commercial vs. Residential Mix",
+      "impact": "+0.5x to +1.0x for commercial-weighted",
+      "direction": "positive",
+      "explanation": "Commercial contracts are larger, longer-term, and more predictable. Annual commercial contracts drive enterprise value.",
+      "source": "Livingstone Partners"
+    },
+    {
+      "factor": "Geographic Density & Season Length",
+      "impact": "+0.3x to +0.8x",
+      "direction": "positive",
+      "explanation": "Continental south and coastal areas with longer landscaping seasons command higher multiples. Urban density improves route economics.",
+      "source": "First Page Sage",
+      "source_url": "https://firstpagesage.com/business/ebitda-multiples-for-landscaping-companies/"
+    },
+    {
+      "factor": "Owner Dependency",
+      "impact": "-0.5x to -1.5x",
+      "direction": "negative",
+      "explanation": "Operations dependent on the owner for sales relationships or daily management significantly reduce buyer confidence.",
+      "source": "Axial / Industry consensus"
+    },
+    {
+      "factor": "Labor Model (H-2B dependency)",
+      "impact": "-0.3x to -0.5x if heavily dependent",
+      "direction": "negative",
+      "explanation": "Heavy reliance on H-2B seasonal visa workers creates regulatory risk and labor supply uncertainty.",
+      "source": "Industry consensus"
+    },
+    {
+      "factor": "Equipment Fleet Condition",
+      "impact": "-0.3x to -0.5x if aging",
+      "direction": "negative",
+      "explanation": "Landscaping is equipment-intensive. Deferred capex on trucks, mowers, and trailers reduces value.",
+      "source": "Industry consensus"
+    },
+    {
+      "factor": "Revenue Growth Rate",
+      "impact": "+0.5x to +1.0x for 10%+ CAGR",
+      "direction": "positive",
+      "explanation": "Median sale prices rose 20% in 2025. Growing companies in growing markets command premium.",
+      "source": "BizBuySell",
+      "source_url": "https://www.bizbuysell.com/learning-center/valuation-benchmarks/landscaping-yard-service/"
+    },
+    {
+      "factor": "Specialized Services (irrigation, tree care, snow removal)",
+      "impact": "+0.3x to +0.5x",
+      "direction": "positive",
+      "explanation": "Niche capabilities create cross-sell opportunities and differentiation in roll-up strategies.",
+      "source": "Livingstone Partners"
+    }
+  ],
+  "recent_transactions": [
+    {
+      "date": "2024-2025",
+      "target": "Multiple independent operators",
+      "acquirer": "BrightView Holdings (NYSE: BV)",
+      "type": "Strategic add-ons",
+      "deal_size": "Various",
+      "rationale": "Largest US commercial landscaping company, active acquirer consolidating market share.",
+      "source": "Industry press"
+    },
+    {
+      "date": "2024-2025",
+      "target": "Multiple independent operators",
+      "acquirer": "Yellowstone Landscape (PE-backed)",
+      "type": "Platform roll-up",
+      "deal_size": "Various",
+      "rationale": "Major PE-backed commercial landscaping platform continuing aggressive acquisition strategy.",
+      "source": "Livingstone Partners",
+      "source_url": "https://livingstonepartners.com/en-us/insights/commercial-landscaping-an-owners-guide-to-private-equity-activity-and-valuation-considerations/"
+    },
+    {
+      "date": "2024",
+      "target": "Multiple targets",
+      "acquirer": "Mariani Landscape (PE-backed)",
+      "type": "Platform roll-up",
+      "deal_size": "Various",
+      "rationale": "Residential and commercial landscape platform backed by private equity, expanding through acquisitions.",
+      "source": "Industry press"
+    }
+  ],
+  "known_buyers": {
+    "pe_platforms": [
+      {
+        "name": "Various PE firms",
+        "platform": "Yellowstone Landscape",
+        "thesis": "National commercial landscaping platform built through aggressive add-on strategy",
+        "geographic_focus": "National — Southeast/Sun Belt emphasis"
+      },
+      {
+        "name": "Various PE firms",
+        "platform": "Mariani Landscape",
+        "thesis": "High-end residential and commercial landscape services platform",
+        "geographic_focus": "Midwest / Northeast"
+      }
+    ],
+    "strategic": [
+      {
+        "name": "BrightView Holdings (NYSE: BV)",
+        "strategy": "Largest US commercial landscaping company — acquisition-driven growth model",
+        "revenue": "$2.8B+"
+      },
+      {
+        "name": "TruGreen (private)",
+        "strategy": "Residential lawn care leader — occasional acquisitions to expand service offerings",
+        "revenue": "$1.5B+"
+      }
+    ]
+  }
+}

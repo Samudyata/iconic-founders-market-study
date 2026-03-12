@@ -1,0 +1,231 @@
+{
+  "industry": "Pest Control",
+  "display_name": "Pest Control Services",
+  "naics_codes": ["561710"],
+  "overview": {
+    "market_size": "$24.4 billion globally (2024), projected $49.7B by 2034; US generates $15B+ by 2030",
+    "market_size_source": "Capstone Partners / Peapack Private Wealth",
+    "market_size_source_url": "https://www.capstonepartners.com/insights/article-pest-control-sector-update/",
+    "growth_rate": "6.5% CAGR globally; 8.8% CAGR domestically (down from 12.7% in Q4 2023)",
+    "fragmentation": "Highly fragmented with thousands of independent operators. Consolidation accelerating via PE platforms.",
+    "typical_ebitda_margin": "18%–25% for well-run operators — among the highest in home services",
+    "recurring_revenue_note": "Industry uniquely suited for recurring revenue models — monthly/quarterly treatment plans. Recurring revenue is the primary valuation driver.",
+    "pe_interest": "Extremely active — M&A split nearly 50/50 between strategic and financial buyers in 2024. Add-on transactions up 29.4% YoY.",
+    "pe_interest_source": "Capstone Partners January 2025 Sector Update",
+    "pe_interest_source_url": "https://www.capstonepartners.com/insights/article-pest-control-sector-update/",
+    "labor_challenge": "Moderate — lower skill requirements than HVAC, but retention is a challenge",
+    "ai_disruption_risk": "Very Low — physical pest treatment resistant to automation"
+  },
+  "ebitda_multiples": {
+    "$2M-$5M": {
+      "low": 3.3,
+      "median": 4.0,
+      "high": 6.0,
+      "deal_count": "High volume — active add-on target",
+      "source": "First Page Sage 2025 / Peak Business Valuation",
+      "source_url": "https://firstpagesage.com/business/ebitda-multiples-for-pest-control-companies/",
+      "confidence": "HIGH",
+      "notes": "Typical range 3.26x–4.07x for smaller operators. Companies with $2-3M+ revenue and recurring contracts see 4x–6x."
+    },
+    "$5M-$10M": {
+      "low": 5.0,
+      "median": 7.0,
+      "high": 9.0,
+      "deal_count": "Active — competitive processes common",
+      "source": "Capstone Partners / Industry data",
+      "source_url": "https://www.capstonepartners.com/insights/article-pest-control-sector-update/",
+      "confidence": "MEDIUM",
+      "notes": "Revenue multiples of 3x are common shorthand, equating to ~15x free cash flow for a company with 20% margins. Quality assets in this range see robust competition."
+    },
+    "$10M-$15M": {
+      "low": 7.0,
+      "median": 9.0,
+      "high": 12.0,
+      "deal_count": "Platform-quality, limited supply",
+      "source": "Capstone Partners / Industry estimates",
+      "source_url": "https://www.capstonepartners.com/insights/article-pest-control-sector-update/",
+      "confidence": "MEDIUM",
+      "notes": "Platform-scale pest control businesses with strong recurring revenue base. Valuation premium over other service sectors."
+    },
+    "$15M-$25M": {
+      "low": 9.0,
+      "median": 12.0,
+      "high": 15.0,
+      "deal_count": "Rare — premium exits",
+      "source": "Industry estimates / comparable transactions",
+      "confidence": "LOW",
+      "notes": "Limited public data. Pest control commands premium multiples vs. other home services due to high margins and recurring revenue."
+    }
+  },
+  "value_drivers": [
+    {
+      "factor": "Recurring Revenue (Monthly/Quarterly Plans)",
+      "impact": "+1.0x to +2.0x",
+      "direction": "positive",
+      "explanation": "Pest control is inherently recurring — monthly/quarterly treatment cycles create predictable cash flows. This is the #1 driver of premium valuations.",
+      "source": "Capstone Partners / PestPac"
+    },
+    {
+      "factor": "Customer Retention Rate",
+      "impact": "+0.5x to +1.0x for >85% retention",
+      "direction": "positive",
+      "explanation": "Low customer churn + high lifetime value. Pest control has inherently lower churn than many service businesses.",
+      "source": "First Page Sage"
+    },
+    {
+      "factor": "Route Density & Efficiency",
+      "impact": "+0.3x to +0.5x",
+      "direction": "positive",
+      "explanation": "Dense service routes improve technician utilization and margins. Technology-enabled routing is a plus.",
+      "source": "FieldRoutes / Industry consensus",
+      "source_url": "https://www.fieldroutes.com/blog/6-steps-to-prepare-to-sell-your-pest-control-company-even-if-youre-not-ready"
+    },
+    {
+      "factor": "Technology Adoption",
+      "impact": "+0.3x to +0.5x",
+      "direction": "positive",
+      "explanation": "CRM, route optimization, automated scheduling, and digital payments signal operational maturity and reduce integration costs.",
+      "source": "FieldRoutes"
+    },
+    {
+      "factor": "Multi-Service Offering",
+      "impact": "+0.3x to +0.5x",
+      "direction": "positive",
+      "explanation": "Termite, mosquito, wildlife, and lawn care cross-sells increase revenue per customer and stickiness.",
+      "source": "Industry consensus"
+    },
+    {
+      "factor": "Owner Dependency",
+      "impact": "-0.5x to -1.0x",
+      "direction": "negative",
+      "explanation": "Buyers seek management teams that can operate independently. Owner-dependent shops face significant discounts.",
+      "source": "Mid Street Mergers"
+    },
+    {
+      "factor": "Residential vs. Commercial Mix",
+      "impact": "Residential currently at premium",
+      "direction": "positive",
+      "explanation": "Residential pest control companies currently have higher multiples, though the gap is expected to narrow as commercial activity increases.",
+      "source": "First Page Sage",
+      "source_url": "https://firstpagesage.com/business/ebitda-multiples-for-pest-control-companies/"
+    }
+  ],
+  "recent_transactions": [
+    {
+      "date": "2024",
+      "target": "7 add-on acquisitions",
+      "acquirer": "Certus Pest (PE-backed platform)",
+      "type": "Add-on roll-up",
+      "deal_size": "Multiple undisclosed",
+      "rationale": "Most active pest control acquirer in 2024 — aggressive roll-up strategy.",
+      "source": "Capstone Partners",
+      "source_url": "https://www.capstonepartners.com/insights/article-pest-control-sector-update/"
+    },
+    {
+      "date": "2024",
+      "target": "6 add-on acquisitions",
+      "acquirer": "Rockit Pest (PE-backed platform)",
+      "type": "Add-on roll-up",
+      "deal_size": "Multiple undisclosed",
+      "rationale": "Second most active acquirer. Building national pest control platform.",
+      "source": "Capstone Partners",
+      "source_url": "https://www.capstonepartners.com/insights/article-pest-control-sector-update/"
+    },
+    {
+      "date": "2024",
+      "target": "6 add-on acquisitions",
+      "acquirer": "PestCo (PE-backed platform)",
+      "type": "Add-on roll-up",
+      "deal_size": "Multiple undisclosed",
+      "rationale": "Active platform continuing consolidation strategy.",
+      "source": "Capstone Partners",
+      "source_url": "https://www.capstonepartners.com/insights/article-pest-control-sector-update/"
+    },
+    {
+      "date": "2024",
+      "target": "6 acquisitions",
+      "acquirer": "Arrow Exterminators (strategic)",
+      "type": "Strategic",
+      "deal_size": "Undisclosed",
+      "rationale": "Top private strategic buyer — organic and M&A driven growth.",
+      "source": "Capstone Partners",
+      "source_url": "https://www.capstonepartners.com/insights/article-pest-control-sector-update/"
+    },
+    {
+      "date": "2024 (ongoing)",
+      "target": "Multiple acquisitions globally",
+      "acquirer": "Rentokil Initial (LSE: RTO)",
+      "type": "Strategic",
+      "deal_size": "Various",
+      "rationale": "Global leader post-Terminix acquisition. Continues tuck-in strategy.",
+      "source": "Capstone Partners",
+      "source_url": "https://www.capstonepartners.com/insights/article-pest-control-sector-update/"
+    },
+    {
+      "date": "2024 (ongoing)",
+      "target": "Multiple acquisitions",
+      "acquirer": "Rollins Inc. (NYSE: ROL)",
+      "type": "Strategic",
+      "deal_size": "Various",
+      "rationale": "Parent of Orkin — consistently active strategic acquirer.",
+      "source": "Capstone Partners",
+      "source_url": "https://www.capstonepartners.com/insights/article-pest-control-sector-update/"
+    }
+  ],
+  "known_buyers": {
+    "pe_platforms": [
+      {
+        "name": "Various PE sponsors",
+        "platform": "Certus Pest",
+        "thesis": "Most active PE-backed pest control platform — 7 deals in 2024 alone",
+        "geographic_focus": "National"
+      },
+      {
+        "name": "Various PE sponsors",
+        "platform": "Rockit Pest",
+        "thesis": "Aggressive roll-up strategy — 6 deals in 2024",
+        "geographic_focus": "National"
+      },
+      {
+        "name": "Various PE sponsors",
+        "platform": "PestCo",
+        "thesis": "Active consolidation platform — 6 deals in 2024",
+        "geographic_focus": "Regional / National"
+      },
+      {
+        "name": "Various PE sponsors",
+        "platform": "Barefoot Mosquito & Pest Control",
+        "thesis": "Specialized mosquito/pest platform — 5 deals in 2024",
+        "geographic_focus": "Southeast / Sun Belt"
+      },
+      {
+        "name": "Various PE sponsors",
+        "platform": "Senske Services",
+        "thesis": "Multi-service platform including pest, lawn, and tree care — 3 deals in 2024",
+        "geographic_focus": "Pacific Northwest / National"
+      }
+    ],
+    "strategic": [
+      {
+        "name": "Rollins Inc. (NYSE: ROL) — parent of Orkin",
+        "strategy": "Consistently active strategic acquirer. Market cap ~$20B. Acquires across all pest control segments.",
+        "revenue": "$3.2B+ (2024)"
+      },
+      {
+        "name": "Rentokil Initial (LSE: RTO) — owns Terminix",
+        "strategy": "Global #1 after acquiring Terminix for $6.7B in 2022. Continues tuck-in acquisitions.",
+        "revenue": "$6.5B+ globally"
+      },
+      {
+        "name": "Arrow Exterminators",
+        "strategy": "Largest privately-held US pest control company — 6 acquisitions in 2024. Family-owned, aggressive acquirer.",
+        "revenue": "$600M+"
+      },
+      {
+        "name": "Massey Services",
+        "strategy": "Florida-based private strategic — 3 acquisitions in 2024. Pest control, lawn, and termite.",
+        "revenue": "$300M+"
+      }
+    ]
+  }
+}

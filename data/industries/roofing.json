@@ -1,0 +1,190 @@
+{
+  "industry": "Roofing",
+  "display_name": "Roofing Contractor Services",
+  "naics_codes": ["238160"],
+  "overview": {
+    "market_size": "US roofing market projected to reach $41.5B by 2034",
+    "market_size_source": "AXIA Advisors / Industry Reports",
+    "market_size_source_url": "https://axiaadvisors.com/private-equity-in-roofing/",
+    "growth_rate": "Stable growth driven by aging infrastructure, storm damage, and re-roofing cycles",
+    "fragmentation": "Extremely fragmented — thousands of independent contractors. PE platform count tripled from 17 to 56 in just 24 months (2023-2024).",
+    "fragmentation_source": "AXIA Advisors",
+    "fragmentation_source_url": "https://axiaadvisors.com/private-equity-roofing-platforms/",
+    "typical_ebitda_margin": "12%–20% for well-run operators; service/maintenance-focused businesses at higher end",
+    "recurring_revenue_note": "Service and maintenance programs create recurring revenue streams that command 1-2x EBITDA premium over construction-heavy counterparts.",
+    "pe_interest": "Explosive — PE platform count grew 229% in 24 months. 134 contractors acquired in 2024 (up 25% from 106 in 2023). Deals occurring at near-weekly cadence.",
+    "pe_interest_source": "AXIA Advisors / Anchor Peabody",
+    "pe_interest_source_url": "https://axiaadvisors.com/private-equity-in-roofing/",
+    "labor_challenge": "Skilled labor shortage — roofing is physically demanding with high turnover",
+    "ai_disruption_risk": "Very Low — physical roofing work resistant to automation. Drone inspections emerging but complementary.",
+    "landmark_deals": "Home Depot acquired SRS Distribution for ~$18B (March 2024); QXO acquired Beacon Building Products for $10.6B (March 2025)"
+  },
+  "ebitda_multiples": {
+    "$2M-$5M": {
+      "low": 4.0,
+      "median": 5.0,
+      "high": 6.5,
+      "deal_count": "High volume — strong add-on demand",
+      "source": "Axial / First Page Sage / AXIA Advisors",
+      "source_url": "https://www.axial.net/m-a/roofing/",
+      "confidence": "HIGH",
+      "notes": "Axial reports typical range of 4.3x–7.0x. Companies that would have sold for 5x a decade ago now command 6-7x."
+    },
+    "$5M-$10M": {
+      "low": 5.5,
+      "median": 7.0,
+      "high": 9.0,
+      "deal_count": "Active — core PE target",
+      "source": "AXIA Advisors / Forbes Partners",
+      "source_url": "https://axiaadvisors.com/private-equity-in-roofing/",
+      "confidence": "MEDIUM",
+      "notes": "Multiples came down from peak of 8x-11x to more sustainable 6x-9x range in 2024 as platforms focused on integration."
+    },
+    "$10M-$15M": {
+      "low": 7.0,
+      "median": 8.5,
+      "high": 10.0,
+      "deal_count": "Platform-quality",
+      "source": "Forbes Partners / AXIA Advisors",
+      "source_url": "https://forbes-partners.com/the-roofing-business-boom-how-to-maximize-value-when-selling/",
+      "confidence": "MEDIUM",
+      "notes": "Well-positioned businesses with service revenue, multi-market presence, and strong management can achieve 8-10x."
+    },
+    "$15M-$25M": {
+      "low": 8.0,
+      "median": 10.0,
+      "high": 12.0,
+      "deal_count": "Premium — rare assets",
+      "source": "Industry estimates / comparable transactions",
+      "confidence": "LOW",
+      "notes": "Public roofing and building products companies trade at ~12.9x median, suggesting substantial room for private valuation expansion."
+    }
+  },
+  "value_drivers": [
+    {
+      "factor": "Service/Maintenance Revenue vs. New Construction",
+      "impact": "+1.0x to +2.0x",
+      "direction": "positive",
+      "explanation": "Service-focused businesses with strong maintenance programs command 1-2x EBITDA premium over construction-heavy counterparts. Predictable cash flows are key.",
+      "source": "AXIA Advisors",
+      "source_url": "https://axiaadvisors.com/private-equity-in-roofing/"
+    },
+    {
+      "factor": "Multi-Market Presence",
+      "impact": "+1.0x to +2.0x",
+      "direction": "positive",
+      "explanation": "If a company can prove out greenfield growth and validate 4-12 markets, valuations can increase towards double digits. Demonstrates scalability.",
+      "source": "AXIA Advisors",
+      "source_url": "https://axiaadvisors.com/private-equity-roofing-platforms/"
+    },
+    {
+      "factor": "Commercial vs. Residential Mix",
+      "impact": "+0.5x for commercial-weighted",
+      "direction": "positive",
+      "explanation": "Commercial roofing contracts are larger, longer-term, and less weather-dependent than residential storm chasing.",
+      "source": "Forbes Partners",
+      "source_url": "https://forbes-partners.com/the-roofing-business-boom-how-to-maximize-value-when-selling/"
+    },
+    {
+      "factor": "Owner Dependency / Management Depth",
+      "impact": "-0.5x to -1.5x",
+      "direction": "negative",
+      "explanation": "PE firms require management teams that can operate independently. Transition risk is heavily scrutinized.",
+      "source": "Industry consensus"
+    },
+    {
+      "factor": "Revenue Quality & Clean Financials",
+      "impact": "+0.5x to +1.0x",
+      "direction": "positive",
+      "explanation": "Clean books, accurate job costing, and auditable financials signal professionalism. Many roofing contractors have poor financial reporting.",
+      "source": "AXIA Advisors"
+    },
+    {
+      "factor": "Storm vs. Non-Storm Revenue Mix",
+      "impact": "-0.5x to -1.0x if storm-dependent",
+      "direction": "negative",
+      "explanation": "Storm-chasing roofing companies face revenue volatility. Buyers discount for weather-dependent business models.",
+      "source": "Roofing Contractor Magazine",
+      "source_url": "https://www.roofingcontractor.com/articles/100478-roofings-big-deal-what-contractors-need-to-know-about-private-equity-in-2025"
+    },
+    {
+      "factor": "Subcontractor vs. W-2 Labor Model",
+      "impact": "+/- 0.3x to 0.5x",
+      "direction": "mixed",
+      "explanation": "W-2 model provides operational control; sub model offers flexibility. Buyers assess labor classification risk.",
+      "source": "Industry consensus"
+    }
+  ],
+  "recent_transactions": [
+    {
+      "date": "March 2024",
+      "target": "SRS Distribution",
+      "acquirer": "The Home Depot",
+      "type": "Strategic mega-deal",
+      "deal_size": "$18 billion",
+      "rationale": "Largest roofing distribution deal in history. Home Depot entering professional contractor supply chain.",
+      "source": "Multiple sources / AXIA Advisors",
+      "source_url": "https://axiaadvisors.com/private-equity-in-roofing/"
+    },
+    {
+      "date": "March 2025",
+      "target": "Beacon Building Products",
+      "acquirer": "QXO",
+      "type": "Strategic mega-deal",
+      "deal_size": "$10.6 billion",
+      "rationale": "Major distribution consolidation. Board initially resisted but agreed to terms.",
+      "source": "Anchor Peabody",
+      "source_url": "https://anchorpeabody.com/news-and-insights/roofing-and-siding-digest-summer-2024-2/"
+    },
+    {
+      "date": "2024",
+      "target": "134 roofing contractors (aggregate)",
+      "acquirer": "Various PE platforms (56 active)",
+      "type": "Add-on roll-ups",
+      "deal_size": "Various — mostly undisclosed",
+      "rationale": "PE-backed roofing platforms acquired 134 contractors in 2024, up 25% from 106 in 2023.",
+      "source": "AXIA Advisors",
+      "source_url": "https://axiaadvisors.com/private-equity-roofing-platforms/"
+    },
+    {
+      "date": "Q1 2024",
+      "target": "19+ roofing companies",
+      "acquirer": "Various PE platforms",
+      "type": "Add-on acquisitions",
+      "deal_size": "Various",
+      "rationale": "At least 19 roofing companies changed hands in Q1 2024 alone — near-weekly cadence.",
+      "source": "AXIA Advisors",
+      "source_url": "https://axiaadvisors.com/private-equity-in-roofing/"
+    }
+  ],
+  "known_buyers": {
+    "pe_platforms": [
+      {
+        "name": "Various PE sponsors",
+        "platform": "56 active roofing PE platforms (as of end-2024)",
+        "thesis": "Roofing platform count tripled from 17 to 56 in 2023-2024. Each platform actively seeking add-on acquisitions.",
+        "geographic_focus": "National — concentration in Sun Belt and storm-prone regions",
+        "source_url": "https://axiaadvisors.com/private-equity-roofing-platforms/"
+      },
+      {
+        "name": "Radnor Roofing (PE-backed)",
+        "platform": "Radnor Roofing",
+        "thesis": "Active commercial and residential roofing platform with multi-market strategy",
+        "geographic_focus": "Southeast / Mid-Atlantic",
+        "source_url": "https://www.brentwood-growth.com/blog/sell-or-scale/private-equity-in-roofing-inside-radnor-roofings-acquisition-strategy/"
+      }
+    ],
+    "strategic": [
+      {
+        "name": "Tecta America",
+        "strategy": "Largest US commercial roofing contractor — active acquirer of commercial roofing businesses",
+        "revenue": "$1B+"
+      },
+      {
+        "name": "CentiMark Corporation",
+        "strategy": "Major commercial roofing and flooring contractor — acquisition-driven growth",
+        "revenue": "$800M+"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "industry": "Industrial Services",
+  "display_name": "Industrial & Specialty Services",
+  "naics_codes": ["562998", "238990", "561790"],
+  "overview": {
+    "market_size": "US industrial services market estimated at $50-70B (includes industrial cleaning, tank cleaning, turnaround services, scaffolding, insulation)",
+    "growth_rate": "4-6% CAGR driven by refinery maintenance, infrastructure spending, and environmental compliance",
+    "fragmentation": "Highly fragmented — mix of large national players and thousands of regional specialists",
+    "typical_ebitda_margin": "12%–20% depending on specialization; hazmat and specialty services at higher end",
+    "recurring_revenue_note": "Master Service Agreements (MSAs) with refineries, chemical plants, and manufacturers create recurring revenue base. Turnaround/shutdown work is cyclical but predictable.",
+    "pe_interest": "Strong — industrial services is a well-established PE consolidation thesis. Multiple active platforms.",
+    "labor_challenge": "Significant — specialized trade certifications, safety training requirements, aging workforce",
+    "ai_disruption_risk": "Low — physical industrial services, confined space work, and hazmat handling resistant to automation"
+  },
+  "ebitda_multiples": {
+    "$2M-$5M": {
+      "low": 4.0,
+      "median": 5.5,
+      "high": 7.0,
+      "deal_count": "Moderate — niche specialties attract buyers",
+      "source": "Industry estimates / industrial services M&A data",
+      "confidence": "MEDIUM",
+      "notes": "Specialized industrial services (tank cleaning, hydro blasting, coatings) command premium over generalist contractors."
+    },
+    "$5M-$10M": {
+      "low": 5.5,
+      "median": 7.0,
+      "high": 9.0,
+      "deal_count": "Active — PE add-on target",
+      "source": "Industry estimates / comparable transactions",
+      "confidence": "MEDIUM",
+      "notes": "MSA portfolios with blue-chip industrial clients support higher multiples."
+    },
+    "$10M-$15M": {
+      "low": 7.0,
+      "median": 8.5,
+      "high": 10.0,
+      "deal_count": "Platform-quality",
+      "source": "Industry estimates",
+      "confidence": "LOW",
+      "notes": "Multi-service, multi-site industrial services platforms with established MSAs and safety records."
+    },
+    "$15M-$25M": {
+      "low": 8.0,
+      "median": 10.0,
+      "high": 12.0,
+      "deal_count": "Premium",
+      "source": "Public company comparables / industry estimates",
+      "confidence": "LOW",
+      "notes": "Large industrial services companies (Clean Harbors, GFL) trade at 10-14x. Strong sector with proven PE playbook."
+    }
+  },
+  "value_drivers": [
+    {"factor": "Master Service Agreements (MSAs)", "impact": "+1.0x to +2.0x", "direction": "positive", "explanation": "Long-term MSAs with refineries, chemical plants, and manufacturers provide revenue predictability and reduce sales cost."},
+    {"factor": "Safety Record (EMR/TRIR)", "impact": "+0.5x to +1.0x", "direction": "positive", "explanation": "Low Experience Modification Rate (EMR) and Total Recordable Incident Rate (TRIR) are table stakes for major industrial clients. Poor safety = deal killer."},
+    {"factor": "Specialty Certifications", "impact": "+0.5x", "direction": "positive", "explanation": "Confined space, hazmat, radiation, and specialty welding certifications create barriers to entry."},
+    {"factor": "Multi-Service Capability", "impact": "+0.5x to +1.0x", "direction": "positive", "explanation": "Companies offering multiple services (cleaning + inspection + maintenance) become one-stop shops for industrial clients."},
+    {"factor": "Customer Concentration", "impact": "-0.5x to -1.5x if >25% from one client", "direction": "negative", "explanation": "Industrial services companies often have concentrated client bases. Diversification across plants/sites mitigates risk."},
+    {"factor": "Environmental Compliance Capabilities", "impact": "+0.3x to +0.5x", "direction": "positive", "explanation": "Companies handling waste manifesting, disposal, and environmental reporting add compliance value."},
+    {"factor": "Turnaround/Shutdown Scheduling", "impact": "+0.3x for predictable scheduling", "direction": "positive", "explanation": "Turnaround work is cyclical but predictable (refineries schedule years ahead). Established turnaround relationships are valuable."}
+  ],
+  "recent_transactions": [
+    {"date": "2024-2025", "target": "Various regional operators", "acquirer": "Multiple PE-backed industrial services platforms", "type": "Add-on roll-ups", "deal_size": "Various", "rationale": "Industrial services consolidation continuing as PE platforms add geographic and service capabilities."},
+    {"date": "Ongoing", "target": "Regional industrial cleaning and specialty services companies", "acquirer": "Clean Harbors, GFL Environmental, Heritage Environmental", "type": "Strategic tuck-ins", "deal_size": "Various", "rationale": "Large strategics continuously acquiring to expand service footprint and client relationships."}
+  ],
+  "known_buyers": {
+    "pe_platforms": [
+      {"name": "Various PE firms", "platform": "Multiple industrial services platforms", "thesis": "Consolidation of fragmented industrial services providers to build regional/national platforms with diverse service offerings and MSA portfolios"}
+    ],
+    "strategic": [
+      {"name": "Clean Harbors (NYSE: CLH)", "strategy": "Largest US environmental/industrial services company — active acquirer", "revenue": "$5.5B+"},
+      {"name": "GFL Environmental (NYSE: GFL)", "strategy": "Canadian waste/environmental/industrial services — aggressive US expansion", "revenue": "$7B+ (CAD)"},
+      {"name": "Heritage Environmental Services", "strategy": "Private — industrial waste management and environmental services", "revenue": "$1B+"},
+      {"name": "APi Group (NYSE: APG)", "strategy": "Safety, specialty, and industrial services — active acquirer in specialty contracting", "revenue": "$6.9B+"}
+    ]
+  }
+}

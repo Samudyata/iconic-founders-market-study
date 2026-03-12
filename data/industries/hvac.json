@@ -1,0 +1,277 @@
+{
+  "industry": "HVAC",
+  "display_name": "Heating, Ventilation & Air Conditioning (HVAC)",
+  "naics_codes": ["238220", "238210"],
+  "overview": {
+    "market_size": "$88.9 billion (US, 2024); $310.6 billion globally",
+    "market_size_source": "Global Market Insights via Capstone Partners",
+    "market_size_source_url": "https://www.capstonepartners.com/insights/article-hvac-services-ma-update/",
+    "growth_rate": "Steady growth driven by replacement cycles, energy efficiency regulations, and electrification trends",
+    "fragmentation": "Highly fragmented — dominated by independent, family-owned operators. Residential segment midway through consolidation; commercial segment still early-stage",
+    "fragmentation_source": "PKF Investment Banking",
+    "fragmentation_source_url": "https://www.pkfod.com/insights/us-hvac-ma-industry-update-summer-2025/",
+    "typical_ebitda_margin": "15%–20% for well-run operators",
+    "typical_ebitda_margin_source": "Brentwood Growth / Axial",
+    "recurring_revenue_note": "Companies with 40%+ revenue from service agreements command 0.5x–1.0x higher multiples",
+    "pe_interest": "PE deal share rose from 8% in 2023 to 23% in 2024. Add-on transactions up 88% YoY through June 2025.",
+    "pe_interest_source": "Capstone Partners / Axial",
+    "pe_interest_source_url": "https://www.capstonepartners.com/insights/article-hvac-services-ma-update/",
+    "deal_volume_2024": "138 announced or completed deals (CapIQ, 2024); 60 in H1 2025",
+    "labor_challenge": "~110,000 unfilled technician positions; ~23,000 technicians exit annually",
+    "ai_disruption_risk": "Low — skilled trades largely untouchable by AI/automation"
+  },
+  "ebitda_multiples": {
+    "$2M-$5M": {
+      "low": 3.4,
+      "median": 5.0,
+      "high": 6.5,
+      "deal_count": "Moderate volume",
+      "source": "First Page Sage 2025 / Axial Platform Data",
+      "source_url": "https://firstpagesage.com/business/hvac-ebitda-valuation-multiples/",
+      "confidence": "HIGH",
+      "notes": "Small HVAC transactions typically fall in the 3x–5x range; well-run operators with service contracts can reach 6x+"
+    },
+    "$5M-$10M": {
+      "low": 5.0,
+      "median": 7.0,
+      "high": 8.5,
+      "deal_count": "Active — core PE add-on target",
+      "source": "First Page Sage 2025 / PKF O'Connor Davies",
+      "source_url": "https://firstpagesage.com/business/hvac-ebitda-valuation-multiples/",
+      "confidence": "HIGH",
+      "notes": "Sweet spot for PE add-on acquisitions. Midsize HVAC companies averaging ~8.5x EBITDA haven't seen much fluctuation with interest rate changes."
+    },
+    "$10M-$15M": {
+      "low": 7.0,
+      "median": 8.5,
+      "high": 10.0,
+      "deal_count": "Competitive process typical",
+      "source": "PKF O'Connor Davies / Capstone Partners",
+      "source_url": "https://www.pkfod.com/insights/us-hvac-ma-industry-update-summer-2025/",
+      "confidence": "MEDIUM",
+      "notes": "Platform-quality businesses at this size. Transaction multiples for high-revenue visibility businesses remain north of 10x."
+    },
+    "$15M-$25M": {
+      "low": 8.0,
+      "median": 10.0,
+      "high": 11.0,
+      "deal_count": "Premium processes — limited supply",
+      "source": "PKF O'Connor Davies / S&P Global",
+      "source_url": "https://www.pkfod.com/insights/us-hvac-ma-industry-update-summer-2025/",
+      "confidence": "MEDIUM",
+      "notes": "Companies with $50M+ revenue averaged ~9x EBITDA (2019-2023). At $15M-$25M EBITDA, platform-scale businesses with strong service components command 10x+."
+    }
+  },
+  "value_drivers": [
+    {
+      "factor": "Recurring Revenue (Service/Maintenance Contracts)",
+      "impact": "+0.5x to +1.0x",
+      "direction": "positive",
+      "explanation": "Companies with 40%+ revenue from service agreements command significantly higher multiples. Recurring revenue provides cash flow predictability PE buyers prize.",
+      "source": "First Page Sage / Axial",
+      "source_url": "https://firstpagesage.com/business/hvac-ebitda-valuation-multiples/"
+    },
+    {
+      "factor": "Customer Concentration",
+      "impact": "-0.5x to -1.5x if >20% from single customer",
+      "direction": "negative",
+      "explanation": "High customer concentration increases risk for buyers, especially in commercial HVAC where losing a major contract can significantly impact revenue.",
+      "source": "Axial / Industry consensus"
+    },
+    {
+      "factor": "Owner Dependency",
+      "impact": "-0.5x to -1.5x",
+      "direction": "negative",
+      "explanation": "~52% of HVAC companies that go to market do not sell, often due to high owner dependence. PE firms specifically seek management teams capable of operating independently.",
+      "source": "Brentwood Growth",
+      "source_url": "https://www.brentwood-growth.com/blog/business-sales/sell-a-business/how-to-value-your-hvac-business-complete-valuation-guide/"
+    },
+    {
+      "factor": "Geographic Density / Route Optimization",
+      "impact": "+0.3x to +0.5x",
+      "direction": "positive",
+      "explanation": "Dense service territories improve technician utilization and reduce windshield time. PE buyers value geographic clustering for add-on integration.",
+      "source": "PE Hub / Industry consensus",
+      "source_url": "https://www.pehub.com/80-pe-backed-hvac-deals-and-what-they-show-about-investing-trends/"
+    },
+    {
+      "factor": "Labor Model (W-2 vs. Subcontractor)",
+      "impact": "+/- 0.3x to 0.5x",
+      "direction": "mixed",
+      "explanation": "W-2 technician model preferred by sophisticated buyers — provides operational control and reduces misclassification risk. Subcontractor-heavy models face regulatory scrutiny.",
+      "source": "Industry consensus"
+    },
+    {
+      "factor": "Revenue Growth Rate",
+      "impact": "+0.5x to +1.0x for 10-15%+ CAGR",
+      "direction": "positive",
+      "explanation": "Companies showing 10-15% annual growth typically receive higher multiples. Growth signals market demand and management capability.",
+      "source": "First Page Sage",
+      "source_url": "https://firstpagesage.com/business/hvac-ebitda-valuation-multiples/"
+    },
+    {
+      "factor": "Commercial vs. Residential Mix",
+      "impact": "+0.5x for commercial-weighted",
+      "direction": "positive",
+      "explanation": "Commercial HVAC is still early-stage in consolidation, offering more runway. Commercial contracts tend to be larger and longer-duration.",
+      "source": "PKF O'Connor Davies",
+      "source_url": "https://www.pkfod.com/insights/us-hvac-ma-industry-update-summer-2025/"
+    },
+    {
+      "factor": "Equipment Age / Capex Requirements",
+      "impact": "-0.3x to -0.5x if fleet is aging",
+      "direction": "negative",
+      "explanation": "Deferred capex on fleet and equipment reduces perceived value. Buyers discount for near-term replacement needs.",
+      "source": "Industry consensus"
+    },
+    {
+      "factor": "Technology Adoption",
+      "impact": "+0.2x to +0.5x",
+      "direction": "positive",
+      "explanation": "CRM, dispatching software, fleet management, and smart thermostat integration signal operational maturity. Reduces integration cost for acquirers.",
+      "source": "Industry consensus"
+    }
+  ],
+  "recent_transactions": [
+    {
+      "date": "Q1 2025",
+      "target": "Premier Mechanical Services",
+      "acquirer": "The Exigent Group (Huron Capital)",
+      "type": "Add-on",
+      "deal_size": "Undisclosed",
+      "implied_multiple": "Undisclosed",
+      "rationale": "8th acquisition for the Exigent platform since 2022. Commercial and industrial HVAC/mechanical services.",
+      "source": "Crain's Detroit Business",
+      "source_url": "https://www.crainsdetroit.com/mergers-acquisitions/hvac-companies-latest-target-private-equity-firms"
+    },
+    {
+      "date": "2024",
+      "target": "Central States HVAC Solutions",
+      "acquirer": "Sold by Prospect Partners (exit)",
+      "type": "PE Exit",
+      "deal_size": "Undisclosed",
+      "implied_multiple": "Undisclosed",
+      "rationale": "Chicago-based Prospect Partners exited its investment in this provider of custom, highly engineered HVAC systems.",
+      "source": "S&P Global",
+      "source_url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/10/hvac-deals-demonstrate-private-equity-s-appetite-for-add-ons-94359580"
+    },
+    {
+      "date": "Q4 2024",
+      "target": "Fumex Air Filtration Systems",
+      "acquirer": "Vance Street Capital",
+      "type": "Platform",
+      "deal_size": "Undisclosed",
+      "implied_multiple": "Undisclosed",
+      "rationale": "Platform acquisition to penetrate existing end markets and broaden product portfolio in HVAC filtration.",
+      "source": "Capstone Partners",
+      "source_url": "https://www.capstonepartners.com/insights/article-hvac-equipment-sector-ma-update/"
+    },
+    {
+      "date": "2020-2025 (ongoing)",
+      "target": "35+ acquisitions (multiple targets)",
+      "acquirer": "Orion Group (Alpine Investors)",
+      "type": "Platform Roll-up",
+      "deal_size": "Multiple undisclosed transactions",
+      "implied_multiple": "Undisclosed",
+      "rationale": "Commercial facility services platform formed Nov 2020. Focus on family-owned HVAC/R, plumbing, and DTO businesses.",
+      "source": "S&P Global / Alpine Investors",
+      "source_url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/10/hvac-deals-demonstrate-private-equity-s-appetite-for-add-ons-94359580"
+    },
+    {
+      "date": "2021-2025 (ongoing)",
+      "target": "28 acquisitions (multiple targets)",
+      "acquirer": "Sila Heating & Air Conditioning (Morgan Stanley Capital Partners)",
+      "type": "Platform Roll-up",
+      "deal_size": "Multiple undisclosed transactions",
+      "implied_multiple": "Undisclosed",
+      "rationale": "Residential HVAC roll-up backed by Morgan Stanley Capital Partners since May 2021. 28 completed acquisitions.",
+      "source": "S&P Global",
+      "source_url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/10/hvac-deals-demonstrate-private-equity-s-appetite-for-add-ons-94359580"
+    },
+    {
+      "date": "2022-2025 (ongoing)",
+      "target": "15 acquisitions (multiple targets)",
+      "acquirer": "FirstCall Mechanical (SkyKnight Capital)",
+      "type": "Platform Roll-up",
+      "deal_size": "Multiple undisclosed transactions",
+      "implied_multiple": "Undisclosed",
+      "rationale": "M&A strategy focused on high-growth Southeast region expansion.",
+      "source": "S&P Global",
+      "source_url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/10/hvac-deals-demonstrate-private-equity-s-appetite-for-add-ons-94359580"
+    }
+  ],
+  "known_buyers": {
+    "pe_platforms": [
+      {
+        "name": "Alpine Investors",
+        "platform": "Orion Group",
+        "acquisitions": "35+",
+        "thesis": "Commercial facility services roll-up targeting family-owned HVAC/R, plumbing, and DTO businesses",
+        "geographic_focus": "National",
+        "source_url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/10/hvac-deals-demonstrate-private-equity-s-appetite-for-add-ons-94359580"
+      },
+      {
+        "name": "Morgan Stanley Capital Partners",
+        "platform": "Sila Heating & Air Conditioning",
+        "acquisitions": "28",
+        "thesis": "Residential HVAC roll-up with service-focused model",
+        "geographic_focus": "Northeast / Mid-Atlantic",
+        "source_url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/10/hvac-deals-demonstrate-private-equity-s-appetite-for-add-ons-94359580"
+      },
+      {
+        "name": "SkyKnight Capital",
+        "platform": "FirstCall Mechanical",
+        "acquisitions": "15",
+        "thesis": "Southeast-focused HVAC expansion targeting high-growth markets",
+        "geographic_focus": "Southeast US",
+        "source_url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/10/hvac-deals-demonstrate-private-equity-s-appetite-for-add-ons-94359580"
+      },
+      {
+        "name": "Huron Capital",
+        "platform": "The Exigent Group",
+        "acquisitions": "8",
+        "thesis": "Commercial and industrial HVAC/mechanical services consolidation",
+        "geographic_focus": "Midwest / National",
+        "source_url": "https://www.crainsdetroit.com/mergers-acquisitions/hvac-companies-latest-target-private-equity-firms"
+      },
+      {
+        "name": "Vance Street Capital",
+        "platform": "Fumex Air Filtration Systems",
+        "acquisitions": "1 (new platform)",
+        "thesis": "HVAC filtration and air quality — new platform build",
+        "geographic_focus": "National",
+        "source_url": "https://www.capstonepartners.com/insights/article-hvac-equipment-sector-ma-update/"
+      },
+      {
+        "name": "Goldman Sachs Alternatives",
+        "platform": "Wrench Group (home services)",
+        "acquisitions": "Multiple",
+        "thesis": "Large-scale home services consolidation including HVAC",
+        "geographic_focus": "National",
+        "source_url": "https://www.sadis.com/insights/hvac-heating-up-with-no-signs-of-cooling-down-the-rising-deal-trend-of-private-equity-in-the-hvac-sector"
+      },
+      {
+        "name": "Gryphon Investors",
+        "platform": "Apex Service Partners",
+        "acquisitions": "Multiple",
+        "thesis": "Multi-trade home services platform including HVAC, plumbing, electrical",
+        "geographic_focus": "National",
+        "source_url": "https://www.sadis.com/insights/hvac-heating-up-with-no-signs-of-cooling-down-the-rising-deal-trend-of-private-equity-in-the-hvac-sector"
+      }
+    ],
+    "strategic": [
+      {
+        "name": "Comfort Systems USA (NYSE: FIX)",
+        "strategy": "Largest publicly-traded mechanical contractor; active acquirer of commercial HVAC businesses",
+        "revenue": "$5.6B+ (2024)",
+        "source_url": "https://www.capstonepartners.com/insights/article-hvac-services-ma-update/"
+      },
+      {
+        "name": "APi Group (NYSE: APG)",
+        "strategy": "Safety and specialty services — active in HVAC/mechanical through Life Safety segment",
+        "revenue": "$6.9B+ (2024)",
+        "source_url": "https://www.capstonepartners.com/insights/article-hvac-services-ma-update/"
+      }
+    ]
+  }
+}

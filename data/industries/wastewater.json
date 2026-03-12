@@ -1,0 +1,75 @@
+{
+  "industry": "Wastewater Services",
+  "display_name": "Wastewater Treatment & Services",
+  "naics_codes": ["221320", "562219"],
+  "overview": {
+    "market_size": "US water/wastewater treatment market estimated at $40-50B; global wastewater treatment market ~$300B",
+    "growth_rate": "5-8% CAGR driven by aging infrastructure, EPA compliance mandates, and PFAS regulations",
+    "fragmentation": "Fragmented among regional service providers. Large utilities handle municipal; private companies handle industrial and commercial.",
+    "typical_ebitda_margin": "15%–25% for specialized operators; higher for industrial wastewater treatment",
+    "recurring_revenue_note": "Contract-based operations, compliance monitoring, and ongoing treatment services create strong recurring revenue.",
+    "pe_interest": "Growing — water/wastewater seen as essential infrastructure play with regulatory tailwinds.",
+    "labor_challenge": "Licensed operators required (state-specific wastewater operator licenses). Moderate shortage.",
+    "ai_disruption_risk": "Low — physical treatment processes and regulatory compliance require human oversight"
+  },
+  "ebitda_multiples": {
+    "$2M-$5M": {
+      "low": 4.0,
+      "median": 6.0,
+      "high": 7.5,
+      "deal_count": "Moderate",
+      "source": "Industry estimates / water services comparables",
+      "confidence": "LOW",
+      "notes": "Water/wastewater services command premium over general environmental services due to essential nature and regulatory barriers."
+    },
+    "$5M-$10M": {
+      "low": 6.0,
+      "median": 7.5,
+      "high": 9.0,
+      "deal_count": "Active — infrastructure PE interest",
+      "source": "Industry estimates / comparable transactions",
+      "confidence": "LOW",
+      "notes": "Infrastructure-focused PE firms showing increased interest. Essential services nature supports premium multiples."
+    },
+    "$10M-$15M": {
+      "low": 7.5,
+      "median": 9.0,
+      "high": 11.0,
+      "deal_count": "Platform-quality",
+      "source": "Industry estimates",
+      "confidence": "LOW",
+      "notes": "Limited public transaction data. Public water utilities trade at 15-20x+ suggesting substantial value creation potential."
+    },
+    "$15M-$25M": {
+      "low": 9.0,
+      "median": 11.0,
+      "high": 14.0,
+      "deal_count": "Rare",
+      "source": "Public company comparables with private discount",
+      "confidence": "LOW",
+      "notes": "Public water companies (Essential Utilities, American Water Works) trade at very high multiples. Private operators see discount but still premium sector."
+    }
+  },
+  "value_drivers": [
+    {"factor": "Long-Term Service Contracts", "impact": "+1.0x to +2.0x", "direction": "positive", "explanation": "Multi-year O&M contracts with municipalities or industrial clients provide exceptional revenue visibility."},
+    {"factor": "Regulatory Compliance Expertise", "impact": "+0.5x to +1.0x", "direction": "positive", "explanation": "EPA, state DEQ, and NPDES permit compliance is complex. Operators with strong compliance track records are valued."},
+    {"factor": "Licensed Operator Pool", "impact": "+0.3x to +0.5x", "direction": "positive", "explanation": "State-licensed wastewater operators are scarce. Companies retaining licensed staff have competitive advantage."},
+    {"factor": "Industrial vs. Municipal Client Mix", "impact": "+0.3x for industrial-weighted", "direction": "positive", "explanation": "Industrial wastewater treatment typically commands higher margins and longer contracts."},
+    {"factor": "PFAS Treatment Capability", "impact": "+0.5x to +1.0x", "direction": "positive", "explanation": "PFAS treatment is an emerging, high-growth segment with limited qualified providers."},
+    {"factor": "Geographic Concentration Risk", "impact": "-0.5x to -1.0x", "direction": "negative", "explanation": "Single-region operators face regulatory and weather risks. Multi-state presence preferred."}
+  ],
+  "recent_transactions": [
+    {"date": "2024-2025", "target": "Various regional operators", "acquirer": "Infrastructure-focused PE firms", "type": "Platform and add-on", "deal_size": "Various", "rationale": "Growing PE interest in water/wastewater as essential infrastructure play."},
+    {"date": "2023", "target": "Evoqua Water Technologies", "acquirer": "Xylem Inc. (NYSE: XYL)", "type": "Strategic mega-deal", "deal_size": "$7.5 billion", "rationale": "Major water technology consolidation creating industry leader."}
+  ],
+  "known_buyers": {
+    "pe_platforms": [
+      {"name": "Infrastructure-focused PE firms", "platform": "Emerging platforms", "thesis": "Water/wastewater consolidation thesis centered on essential infrastructure, regulatory tailwinds, and recurring revenue"}
+    ],
+    "strategic": [
+      {"name": "Xylem Inc. (NYSE: XYL)", "strategy": "Post-Evoqua merger, largest water technology company. Potential acquirer of service operators.", "revenue": "$8B+"},
+      {"name": "Veolia North America", "strategy": "Global water/waste leader expanding US municipal and industrial water services", "revenue": "$45B+ globally"},
+      {"name": "Essential Utilities (NYSE: WTRG)", "strategy": "US water and wastewater utility — acquires municipal systems and service contracts", "revenue": "$2B+"}
+    ]
+  }
+}

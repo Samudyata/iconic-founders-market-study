@@ -1,0 +1,75 @@
+{
+  "industry": "Environmental Remediation",
+  "display_name": "Environmental Remediation Services",
+  "naics_codes": ["562910", "562998"],
+  "overview": {
+    "market_size": "$130+ billion globally (environmental services market); US remediation segment estimated at $15-20B",
+    "growth_rate": "5-7% CAGR driven by PFAS regulation, Superfund activity, and infrastructure spending",
+    "fragmentation": "Moderately fragmented — mix of large national players (Clean Harbors, US Ecology) and regional specialists",
+    "typical_ebitda_margin": "12%–20% depending on specialization (hazmat commands premium margins)",
+    "recurring_revenue_note": "Long-term remediation contracts and ongoing monitoring create recurring revenue. Government contracts provide stability.",
+    "pe_interest": "Growing interest in environmental services broadly. PE attracted to regulatory tailwinds and essential nature of services.",
+    "labor_challenge": "Specialized certifications required (HAZWOPER, EPA credentials). Limited labor pool drives premium margins.",
+    "ai_disruption_risk": "Very Low — physical remediation work and regulatory compliance resistant to automation"
+  },
+  "ebitda_multiples": {
+    "$2M-$5M": {
+      "low": 4.0,
+      "median": 5.5,
+      "high": 7.0,
+      "deal_count": "Moderate",
+      "source": "Industry estimates / Environmental services M&A data",
+      "confidence": "MEDIUM",
+      "notes": "Environmental services companies typically command slight premium over general construction due to specialized capabilities and regulatory barriers."
+    },
+    "$5M-$10M": {
+      "low": 5.5,
+      "median": 7.0,
+      "high": 9.0,
+      "deal_count": "Active — strategic interest",
+      "source": "Industry estimates / comparable transactions",
+      "confidence": "MEDIUM",
+      "notes": "Regulatory expertise and certifications create barriers to entry that support higher multiples."
+    },
+    "$10M-$15M": {
+      "low": 7.0,
+      "median": 8.5,
+      "high": 10.0,
+      "deal_count": "Platform-quality",
+      "source": "Industry estimates",
+      "confidence": "LOW",
+      "notes": "Limited public data. Platform-scale remediation businesses with government contract portfolios."
+    },
+    "$15M-$25M": {
+      "low": 8.0,
+      "median": 10.0,
+      "high": 12.0,
+      "deal_count": "Premium",
+      "source": "Industry estimates / public company comparables",
+      "confidence": "LOW",
+      "notes": "Public environmental services companies (Clean Harbors, US Ecology pre-acquisition) traded at 10-14x. Private discount applies."
+    }
+  },
+  "value_drivers": [
+    {"factor": "Government Contract Portfolio", "impact": "+1.0x to +2.0x", "direction": "positive", "explanation": "Federal/state remediation contracts (Superfund, DOD, DOE) provide long-term revenue visibility and creditworthy counterparties."},
+    {"factor": "PFAS / Emerging Contaminant Expertise", "impact": "+0.5x to +1.0x", "direction": "positive", "explanation": "PFAS remediation is a rapidly growing segment with limited qualified providers. Regulatory tailwind creates premium."},
+    {"factor": "Specialized Certifications & Licenses", "impact": "+0.5x", "direction": "positive", "explanation": "HAZWOPER, EPA, state-specific environmental licenses create barriers to entry."},
+    {"factor": "Customer Concentration", "impact": "-0.5x to -1.0x if >25% from one contract", "direction": "negative", "explanation": "Heavy reliance on single government contracts or clients increases risk."},
+    {"factor": "Equipment & Fleet Specialization", "impact": "+0.3x to +0.5x", "direction": "positive", "explanation": "Specialized remediation equipment (vacuum trucks, containment systems) is expensive to replicate."},
+    {"factor": "Geographic Coverage", "impact": "+0.5x for multi-state", "direction": "positive", "explanation": "Multi-state licensing and mobilization capability adds significant value for national platforms."}
+  ],
+  "recent_transactions": [
+    {"date": "2022", "target": "US Ecology", "acquirer": "Republic Services (NYSE: RSG)", "type": "Strategic", "deal_size": "$2.2 billion", "rationale": "Major strategic acquisition combining waste management with environmental services."},
+    {"date": "2024-2025", "target": "Various regional operators", "acquirer": "Multiple PE-backed platforms", "type": "Add-on roll-ups", "deal_size": "Various undisclosed", "rationale": "PE interest in environmental services growing due to PFAS regulatory tailwinds."}
+  ],
+  "known_buyers": {
+    "pe_platforms": [
+      {"name": "Various PE firms", "platform": "Multiple emerging platforms", "thesis": "Environmental services consolidation driven by regulatory complexity and PFAS remediation demand"}
+    ],
+    "strategic": [
+      {"name": "Clean Harbors (NYSE: CLH)", "strategy": "Largest US environmental services company — active acquirer", "revenue": "$5.5B+"},
+      {"name": "GFL Environmental (NYSE: GFL)", "strategy": "Canadian waste/environmental services company expanding US presence through M&A", "revenue": "$7B+ (CAD)"},
+      {"name": "Republic Services (NYSE: RSG)", "strategy": "Post-US Ecology acquisition, building environmental services capabilities", "revenue": "$15B+"}
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Strategic acquirers active across blue-collar / trades industries",
+  "buyers": [
+    {"name": "Comfort Systems USA (NYSE: FIX)", "revenue": "$5.6B+", "industries": ["HVAC", "Mechanical"], "strategy": "Largest public mechanical contractor, active acquirer"},
+    {"name": "APi Group (NYSE: APG)", "revenue": "$6.9B+", "industries": ["Industrial Services", "HVAC", "Fire Protection"], "strategy": "Safety and specialty services platform"},
+    {"name": "BrightView Holdings (NYSE: BV)", "revenue": "$2.8B+", "industries": ["Landscaping"], "strategy": "Largest US commercial landscaping company"},
+    {"name": "Rollins Inc. (NYSE: ROL)", "revenue": "$3.2B+", "industries": ["Pest Control"], "strategy": "Parent of Orkin — consistent strategic acquirer"},
+    {"name": "Rentokil Initial (LSE: RTO)", "revenue": "$6.5B+", "industries": ["Pest Control"], "strategy": "Global #1 post-Terminix acquisition"},
+    {"name": "Clean Harbors (NYSE: CLH)", "revenue": "$5.5B+", "industries": ["Remediation", "Industrial Services"], "strategy": "Largest US environmental/industrial services"},
+    {"name": "GFL Environmental (NYSE: GFL)", "revenue": "$7B+ CAD", "industries": ["Remediation", "Industrial Services"], "strategy": "Aggressive US expansion in waste/environmental"},
+    {"name": "Xylem Inc. (NYSE: XYL)", "revenue": "$8B+", "industries": ["Wastewater"], "strategy": "Post-Evoqua merger water technology leader"},
+    {"name": "Tecta America", "revenue": "$1B+", "industries": ["Roofing"], "strategy": "Largest US commercial roofing contractor"},
+    {"name": "Arrow Exterminators", "revenue": "$600M+", "industries": ["Pest Control"], "strategy": "Largest private pest control — 6 acquisitions in 2024"}
+  ]
+}
