@@ -3,13 +3,13 @@
 AI-powered M&A market study generator for lower middle market blue-collar industries. Built for Iconic Founders Group.
 
 ## Live Demo
-[Streamlit Cloud App](https://ifg-market-study.streamlit.app) *(link updated after deployment)*
+**[iconic-founders-market-study.streamlit.app](https://iconic-founders-market-study.streamlit.app)**
 
 ## What It Does
 Select an industry → AI generates a complete IB-quality market study with:
 - Executive Industry Snapshot (market size, growth, PE activity)
 - EBITDA Multiples by Deal Size (with source citations)
-- Valuation Heat Map (what drives 4-5x vs 8x+ multiples)
+- Color-Coded Valuation Heat Map (what drives 4x vs 8x+ multiples)
 - Value Driver Sensitivity Analysis
 - Recent Transaction Activity (minimum 5 deals)
 - Ideal Buyer Universe (PE platforms + strategics)
@@ -23,24 +23,35 @@ Select an industry → AI generates a complete IB-quality market study with:
 ## Supported Industries
 HVAC | Commercial Landscaping | Pest Control | Roofing | Environmental Remediation | Wastewater Services | Industrial Services
 
+## Differentiating Features
+
+| Feature | What It Does |
+|---------|--------------|
+| **Confidence Scoring** | Every data point tagged HIGH/MEDIUM/LOW with colored badges |
+| **Valuation Heat Map** | Color-coded table showing what separates a 4x from an 8x+ company |
+| **Self-Critique** | AI critiques its own report from a skeptical MD's perspective |
+| **Source Citations** | Every number backed by a `[Source]` tag — no hallucinated data |
+| **PDF Export** | IB-style formatted PDF with cover page, tables, branded headers |
+
 ## Architecture
 
 ```
 User selects industry
-  → Load curated knowledge base (JSON)
-  → 12-step sequential prompt chain via Gemini 2.0 Flash
+  → Load curated knowledge base (JSON with source URLs)
+  → 12-step sequential prompt chain via Gemini 2.5 Flash
   → Each step: KB data + Google Search Grounding → LLM generation
   → Self-critique pass (feeds full report back for MD-level review)
-  → Render in Streamlit tabs + PDF download
+  → Render in Streamlit tabs + downloadable PDF
 ```
 
-**Stack:** Python, Streamlit, Google Gemini 2.0 Flash (free tier), fpdf2
+**Stack:** Python, Streamlit, Google Gemini 2.5 Flash (free tier), fpdf2
 
 **Key Design Decisions:**
 - **Curated JSON knowledge base** as reliability floor — every data point has a `source_url`
 - **Google Search Grounding** for real-time web data with automatic citations
 - **Anti-hallucination guardrails** — constrained prompts require sources, allow "Limited data available"
 - **Confidence scoring** — HIGH (published source), MEDIUM (web search), LOW (directional only)
+- **IB tone enforcement** — master system prompt sets VP-level writing standard across all sections
 
 ## Setup
 
@@ -70,14 +81,18 @@ Get a free Gemini API key at https://aistudio.google.com/apikey
 - NYU Stern / Damodaran (public company multiples)
 - Google Search via Gemini (real-time data)
 
-See `docs/data_sources.md` for detailed sourcing methodology.
+See [`docs/data_sources.md`](docs/data_sources.md) for detailed sourcing methodology.
+
+## Sample Output
+See [`sample_output/`](sample_output/) for a complete HVAC market study (Markdown + PDF).
 
 ## What I'd Build Next
-1. **Pydantic output validation** — structured models that reject outputs without citations
-2. **Multi-industry comparison** — side-by-side multiples and buyer activity across industries
-3. **Pre-Sale Value Creation Checklist** — what management should improve 12-24 months before going to market
-4. **Chat follow-up interface** — ask questions about the generated report
-5. **Caching layer** — cache Gemini responses to avoid redundant API calls during iteration
+See [`docs/improvements.md`](docs/improvements.md) for the full list. Top priorities:
+1. **Pydantic structured output** — typed models that reject outputs without citations
+2. **Multi-industry comparison** — side-by-side multiples and buyer activity
+3. **Company-specific valuation estimator** — personalized "Where You Sit on the Heat Map"
+4. **Automated data refresh** — scrapers that update the knowledge base weekly
+5. **Chat follow-up interface** — ask questions about the generated report
 
 ## Author
 Samudyata Jagirdar — MS Computer Engineering, Arizona State University
